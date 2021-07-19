@@ -19,8 +19,8 @@
 # Report `.editorconfig` as editor configuration not just INI
 .editorconfig linguist-language=EditorConfig
 
-# Report INI git configurations correctly
-.gitattributes linguist-language=Git-Config
-.gitignore     linguist-language=Git-Config
+# Don't report repo specific git configurations (not true dotfiles)
+.gitattributes -linguist-detectable
+**/.gitignore  -linguist-detectable
 
 # GitHub linguist setting }}}
