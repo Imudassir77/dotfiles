@@ -1,0 +1,19 @@
+#
+# Main git attributes file
+#
+
+# GitHub linguist setting {{{
+
+# Detect all files by default
+* linguist-detectable
+
+# The `.github/` directory contains documentation
+.github/** linguist-vendored
+
+# The `.local/bin/` ddirectory contains vendor executables
+.local/bin/** linguist-vendored
+
+# The `.local/share/` ddirectory contains vendor configs
+.local/share/** linguist-vendored
+
+# GitHub linguist setting }}}
