@@ -20,7 +20,7 @@
 .editorconfig linguist-language=EditorConfig
 
 # Don't report repo specific git configurations (not true dotfiles)
-.gitattributes -linguist-detectable
-**/.gitignore  -linguist-detectable
+.gitattributes linguist-vendored
+**/.gitignore  linguist-vendored
 
 # GitHub linguist setting }}}
