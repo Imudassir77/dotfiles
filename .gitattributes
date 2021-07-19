@@ -16,4 +16,11 @@
 # The `.local/share/` ddirectory contains vendor configs
 .local/share/** linguist-vendored
 
+# Report `.editorconfig` as editor configuration not just INI
+.editorconfig linguist-language=EditorConfig
+
+# Report INI git configurations correctly
+.gitattributes linguist-language=Git-Config
+.gitignore     linguist-language=Git-Config
+
 # GitHub linguist setting }}}
