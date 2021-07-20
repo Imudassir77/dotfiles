@@ -1,5 +1,4 @@
 # dotfiles
-
 [![Vim](https://img.shields.io/badge/--019733?logo=vim)](../.config/vim)
 [![OpenBSD](https://img.shields.io/badge/--F2CA30?logo=openbsd&logoColor=000000)](https://github.com/yuri-norwood/dotfiles/issues?q=label%3Aopenbsd)
 [![Suckless](https://img.shields.io/badge/--1177AA?logo=suckless)](../.local/share/suckless)
@@ -11,9 +10,7 @@
 [![Sponsors](https://img.shields.io/badge/--EA4AAA?logo=github-sponsors&logoColor=ffffff)](https://github.com/sponsors/yuri-norwood)
 [![Build](https://img.shields.io/badge/--success?logo=github-actions&logoColor=ffffff)](https://github.com/yuri-norwood/dotfiles/actions?query=workflow%3Alinting)
 [![License](https://img.shields.io/badge/--blue?logo=creative-commons&logoColor=ffffff)](LICENSE)
-
 Configuration files and various customizations.
-
 ## Installation
 
 This repo is designed to be installed directly into a user's `$HOME` directory,
