@@ -1,7 +1,9 @@
 ---
 
+# This file defines linting actions
 name: Lint
 
+# Lint on all pull request events and when merging to main
 on:
   workflow_dispatch:
   push:
@@ -11,8 +13,10 @@ on:
     branches:
       - main
 
+# Define a job for each automatic task
 jobs:
 
+  # Lint markdown files
   markdown:
     runs-on: ubuntu-latest
     steps:
@@ -42,6 +46,7 @@ jobs:
         with:
           files: .config/vim/pack/*/start/*.md
 
+  # Lint yaml files
   yaml:
     runs-on: ubuntu-latest
     steps:
@@ -65,6 +70,7 @@ jobs:
                   - "true"
                   - "false"
 
+  # Enforce editroconfig compliance
   editorconfig:
     runs-on: ubuntu-latest
     steps:
@@ -74,6 +80,7 @@ jobs:
       - name: Check editorconfig
         uses: editorconfig-checker/action-editorconfig-checker@v1.0.0
 
+  # Lint shellscript files
   shell:
     runs-on: ubuntu-latest
     steps:
@@ -99,6 +106,7 @@ jobs:
         env:
           SHELLCHECK_OPTS: -e SC2034
 
+  # Lint vimscript files
   vimscript:
     runs-on: ubuntu-latest
     steps:
