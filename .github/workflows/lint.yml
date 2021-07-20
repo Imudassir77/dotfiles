@@ -18,29 +18,11 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      # Lint the README
+      # Lint all markdown files
       - name: Lint README
         uses: nosborn/github-action-markdown-cli@v1.1.1
         with:
-          files: .github/README.md
-
-      # Lint issue templates
-      - name: Lint ISSUE_TEMPLATES
-        uses: nosborn/github-action-markdown-cli@v1.1.1
-        with:
-          files: .github/ISSUE_TEMPLATE/*.md
-
-      # Lint pull request templates
-      - name: Lint PULL_TEMPLATES
-        uses: nosborn/github-action-markdown-cli@v1.1.1
-        with:
-          files: .github/PULL_REQUEST_TEMPLATE.md
-
-      # Lint vim plugin documentation
-      - name: Lint vim documentation
-        uses: nosborn/github-action-markdown-cli@v1.1.1
-        with:
-          files: .config/vim/pack/*/start/*.md
+          files: "**/*.md"
 
   yaml:
     runs-on: ubuntu-latest
