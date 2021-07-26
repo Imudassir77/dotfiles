@@ -1,5 +1,6 @@
 # Vim Colorscheme Plugins
 
+* afterglow - Vim adaptation of the Afterglow colorscheme
 * amber - Retro CRT goodness
 * challenger - Challenger Deep theme
 * codedark - The default Visual Studio theme
@@ -13,4 +14,4 @@
 * solarized - The famous solarized theme
 * toast - The Toast theme
 * typewriter - The TypeWriter theme
-* firewatch - Two tone simple theme.
+* firewatch - Two tone simple theme
