@@ -91,3 +91,6 @@
 [submodule ".config/vim/pack/colours/start/firewatch"]
 	path = .config/vim/pack/colours/start/firewatch
 	url  = https://github.com/rakr/vim-two-firewatch
+[submodule ".config/vim/pack/colours/start/acme"]
+	path = .config/vim/pack/colours/start/acme
+	url = https://github.com/plan9-for-vimspace/acme-colors
