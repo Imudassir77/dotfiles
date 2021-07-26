@@ -91,6 +91,9 @@
 [submodule ".config/vim/pack/colours/start/firewatch"]
 	path = .config/vim/pack/colours/start/firewatch
 	url = https://github.com/rakr/vim-two-firewatch
+[submodule ".config/vim/pack/colours/start/spacegray"]
+	path = .config/vim/pack/colours/start/spacegray
+	url = https://github.com/ackyshake/Spacegray.vim
 [submodule ".config/vim/pack/misc/start/smoothie"]
 	path = .config/vim/pack/misc/start/smoothie
 	url = https://github.com/psliwka/vim-smoothie
