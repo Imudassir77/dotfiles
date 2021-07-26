@@ -1,5 +1,6 @@
 # Vim Colorscheme Plugins
 
+* acme - ACME colours for vim
 * afterglow - Vim adaptation of the Afterglow colorscheme
 * amber - Retro CRT goodness
 * challenger - Challenger Deep theme
