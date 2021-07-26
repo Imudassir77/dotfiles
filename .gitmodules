@@ -93,4 +93,16 @@
 	url  = https://github.com/rakr/vim-two-firewatch
 [submodule ".config/vim/pack/colours/start/acme"]
 	path = .config/vim/pack/colours/start/acme
-	url = https://github.com/plan9-for-vimspace/acme-colors
+	url  = https://github.com/plan9-for-vimspace/acme-colors
+[submodule ".config/vim/pack/colours/start/spacegray"]
+	path = .config/vim/pack/colours/start/spacegray
+	url  = https://github.com/ackyshake/Spacegray.vim
+[submodule ".config/vim/pack/misc/start/smoothie"]
+	path = .config/vim/pack/misc/start/smoothie
+	url  = https://github.com/psliwka/vim-smoothie
+[submodule ".config/vim/pack/colours/start/rigel"]
+	path = .config/vim/pack/colours/start/rigel
+	url  = https://github.com/Rigellute/rigel
+[submodule ".config/vim/pack/colours/start/afterglow"]
+	path = .config/vim/pack/colours/start/afterglow
+	url  = https://github.com/danilo-augusto/vim-afterglow
