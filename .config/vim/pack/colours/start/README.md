@@ -1,5 +1,6 @@
 # Vim Colorscheme Plugins
 
+* afterglow - Vim adaptation of the Afterglow colorscheme
 * amber - Retro CRT goodness
 * challenger - Challenger Deep theme
 * codedark - The default Visual Studio theme

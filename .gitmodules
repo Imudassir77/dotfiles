@@ -97,3 +97,6 @@
 [submodule ".config/vim/pack/colours/start/rigel"]
 	path = .config/vim/pack/colours/start/rigel
 	url = https://github.com/Rigellute/rigel
+[submodule ".config/vim/pack/colours/start/afterglow"]
+	path = .config/vim/pack/colours/start/afterglow
+	url = https://github.com/danilo-augusto/vim-afterglow
