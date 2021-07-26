@@ -23,4 +23,7 @@
 .gitattributes linguist-vendored
 **/.gitignore  linguist-vendored
 
+# Report `exrc` as `vimscript`
+.config/vim/exrc linguist-language=Vim-script
+
 # GitHub linguist setting }}}
