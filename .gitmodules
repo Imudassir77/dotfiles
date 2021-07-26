@@ -94,3 +94,6 @@
 [submodule ".config/vim/pack/misc/start/smoothie"]
 	path = .config/vim/pack/misc/start/smoothie
 	url = https://github.com/psliwka/vim-smoothie
+[submodule ".config/vim/pack/colours/start/rigel"]
+	path = .config/vim/pack/colours/start/rigel
+	url = https://github.com/Rigellute/rigel
