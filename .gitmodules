@@ -103,3 +103,6 @@
 [submodule ".config/vim/pack/colours/start/firewatch"]
 	path = .config/vim/pack/colours/start/firewatch
 	url = https://github.com/rakr/vim-two-firewatch
+[submodule ".config/vim/pack/colours/start/rigel"]
+	path = .config/vim/pack/colours/start/rigel
+	url = https://github.com/Rigellute/rigel
