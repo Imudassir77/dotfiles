@@ -21,4 +21,11 @@ let g:go_highlight_variable_declarations      = 1
 let g:go_highlight_variable_assignments       = 1
 let g:go_highlight_diagnostic_errors          = 1
 let g:go_highlight_diagnostic_warnings        = 1
+let g:go_fold_enable = [
+	'block',
+	'import',
+	'varconst',
+	'comment',
+	'package_comment'
+]
 
