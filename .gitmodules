@@ -106,3 +106,6 @@
 [submodule ".config/vim/pack/colours/start/afterglow"]
 	path = .config/vim/pack/colours/start/afterglow
 	url  = https://github.com/danilo-augusto/vim-afterglow
+[submodule ".config/vim/pack/colours/start/gruvbox"]
+	path = .config/vim/pack/colours/start/gruvbox
+	url  = https://github.com/morhetz/gruvbox
