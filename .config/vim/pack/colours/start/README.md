@@ -5,10 +5,12 @@
 * amber - Retro CRT goodness
 * challenger - Challenger Deep theme
 * codedark - The default Visual Studio theme
+* edge - Clean & Elegant colorscheme
 * firewatch - Two tone simple theme
 * flattened - Solarized, without the bullshit
 * github - The GitHub code editor theme
 * gotham - Code never sleeps in Gotham City
+* gruvbox - Retro groove colorscheme
 * iceberg - The IceBerg theme
 * juvenile - "I grew up and today I use monochromatic numerals"
 * kuroi - A very dark colorscheme
