@@ -5,6 +5,7 @@
 * amber - Retro CRT goodness
 * challenger - Challenger Deep theme
 * codedark - The default Visual Studio theme
+* edge - Clean & Elegant colorscheme
 * firewatch - Two tone simple theme
 * flattened - Solarized, without the bullshit
 * github - The GitHub code editor theme

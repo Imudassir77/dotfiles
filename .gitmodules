@@ -109,3 +109,6 @@
 [submodule ".config/vim/pack/colours/start/gruvbox"]
 	path = .config/vim/pack/colours/start/gruvbox
 	url  = https://github.com/morhetz/gruvbox
+[submodule ".config/vim/pack/colours/start/edge"]
+	path = .config/vim/pack/colours/start/edge
+	url  = https://github.com/sainnhe/edge
