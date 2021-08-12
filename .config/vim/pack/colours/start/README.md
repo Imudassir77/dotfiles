@@ -10,6 +10,7 @@
 * flattened - Solarized, without the bullshit
 * github - The GitHub code editor theme
 * gotham - Code never sleeps in Gotham City
+* gruvbox - Retro groove colorscheme
 * iceberg - The IceBerg theme
 * juvenile - "I grew up and today I use monochromatic numerals"
 * one - The One theme
