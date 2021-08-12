@@ -13,6 +13,7 @@
 * gruvbox - Retro groove colorscheme
 * iceberg - The IceBerg theme
 * juvenile - "I grew up and today I use monochromatic numerals"
+* kuroi - A very dark colorscheme
 * one - The One theme
 * paper - The PaperColor theme, inspired by Google's Material Design
 * rigel - Colorscheme based on the star Rigel
