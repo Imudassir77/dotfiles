@@ -68,4 +68,4 @@ jobs:
 
             Go to:
             * ([branch](https://github.com/${{ github.repository }}/tree/${{ env.GITHUB_NEW_BRANCH }}))
-            * ([pull request](https://github.com/${{ github.repository }}/tree/${{ steps.create-pull-request.outputs.number }}))
+            * ([pull request](https://github.com/${{ github.repository }}/pull/${{ steps.create-pull-request.outputs.number }}))
