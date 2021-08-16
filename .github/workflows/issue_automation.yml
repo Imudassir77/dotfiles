@@ -65,5 +65,7 @@ jobs:
             ```sh
             git fetch && git checkout "${{ env.GITHUB_NEW_BRANCH }}"
             ```
-            ([Go to branch](https://github.com/${{ github.repository }}/tree/${{ env.GITHUB_NEW_BRANCH }}))
-            ([Go to pull request](${{ steps.create-pull-request.outputs.html_url }}))
+
+            Go to:
+            * ([branch](https://github.com/${{ github.repository }}/tree/${{ env.GITHUB_NEW_BRANCH }}))
+            * ([pull request](https://github.com/${{ github.repository }}/tree/${{ steps.create-pull-request.outputs.number }}))
