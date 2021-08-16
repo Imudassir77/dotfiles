@@ -41,7 +41,21 @@ jobs:
         run: |
           git push https://${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
           git checkout -b "${{ env.GITHUB_NEW_BRANCH }}"
+          git commit -m "Create branch for #${{ github.event.issue.number }}" --allow-empty
           git push -u origin "${{ env.GITHUB_NEW_BRANCH }}"
+
+      # Create a new pull request from the new branch
+      - uses: actions/checkout@v2
+        with:
+          ref: main
+      - name: Create pull request
+        uses: thomaseizinger/create-pull-request@1.1.0
+        with:
+          base: main
+          head: "${{ env.GITHUB_NEW_BRANCH }}"
+          title: "${{ github.event.issue.title }}"
+          body: "Resolves #${{ github.event.issue.number }}"
+          GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
 
       # Add checkout comment to issue
       - name: Add issue comment
