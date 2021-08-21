@@ -31,7 +31,14 @@
 	showBranch  = true
 	status      = true
 	transport   = true
-	ui          = true
+	ui          = always
+
+[column]
+	branch = true
+	clean  = true
+	status = true
+	tag    = true
+	ui     = always
 
 [diff]
 	colorMoved   = zebra
