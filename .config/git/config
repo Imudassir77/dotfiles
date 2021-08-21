@@ -19,16 +19,26 @@
 	prune = true
 
 [color]
-	diff        = true
-	status      = true
-	branch      = true
-	interactive = true
-	ui          = true
-	pager       = true
+	advice      = true
 	branch      = true
 	decorate    = true
+	diff        = true
 	grep        = true
+	interactive = true
+	pager       = true
+	push        = true
+	remote      = true
 	showBranch  = true
+	status      = true
+	transport   = true
+	ui          = always
+
+[column]
+	branch = true
+	clean  = true
+	status = true
+	tag    = true
+	ui     = always
 
 [diff]
 	colorMoved   = zebra

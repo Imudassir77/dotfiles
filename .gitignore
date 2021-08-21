@@ -5,16 +5,8 @@
 !.**
 !.*/**
 
-# ...that are not:
-
-# misc temp
-**.tmp
-**.bak
-**cache**
-
-# other
+# ...that aren't one of these...
 **.cshrc
 **.cvsrc
 **.login
 **.mailrc
-

@@ -104,6 +104,10 @@ export LESSHISTFILE="${XDG_CACHE_HOME}/less.history"
 # Move wgetrc to XDG_CONFIG
 export WGETRC="$XDG_CONFIG_HOME/wget/config"
 
+# Set git(1) environment variables
+export GIT_EDITOR="${VISUAL:-$EDITOR}"
+export GIT_PAGER="$PAGER"
+
 # Export external variables }}}
 
 # Update PATH {{{
