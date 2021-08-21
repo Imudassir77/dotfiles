@@ -106,6 +106,7 @@ export WGETRC="$XDG_CONFIG_HOME/wget/config"
 
 # Set git(1) environment variables
 export GIT_EDITOR="${VISUAL:-$EDITOR}"
+export GIT_PAGER="$PAGER"
 
 # Export external variables }}}
 
