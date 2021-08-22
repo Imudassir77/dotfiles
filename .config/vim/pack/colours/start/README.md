@@ -5,6 +5,7 @@
 * amber - Retro CRT goodness
 * challenger - Challenger Deep theme
 * codedark - The default Visual Studio theme
+* dracula - draculatheme.com/vim
 * edge - Clean & Elegant colorscheme
 * falcon - A colourscheme for terminals, vim, and friends
 * firewatch - Two tone simple theme
