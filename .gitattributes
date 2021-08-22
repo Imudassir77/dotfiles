@@ -26,4 +26,10 @@
 # Report `exrc` as `vimscript`
 .config/vim/exrc linguist-language=Vim-script
 
+# Report git configuration as `gitconfig`
+.config/git/config linguist-language=Git-Config
+
+# Report XDG user directory config as `sh`
+.config/user-dirs.dirs linguist-language=Shell
+
 # GitHub linguist setting }}}

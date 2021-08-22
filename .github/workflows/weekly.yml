@@ -26,13 +26,26 @@ jobs:
       - name: Set env
         run: |
           echo "GITHUB_NEW_BRANCH=000-git-submodule-auto-update" >> $GITHUB_ENV
+          git config --global user.email "Yuri Norwood"
+          git config --global user.name "76186754+yuri-norwood@users.noreply.github.com"
 
-      # Create new branch and push to remote
-      - name: Push branch
+      # Run update
+      - name: Update modules
         run: |
-          git push https://${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
-          git checkout -b "${{ env.GITHUB_NEW_BRANCH }}"
-          git push -u origin "${{ env.GITHUB_NEW_BRANCH }}"
+          git submodule foreach --recursive git pull origin master
+          git commit -am "Updated submodules"
+
+      # Authenticate token
+      - name: Push branch
+        run: git push https://${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+
+      # Create new branch
+      - name: Create branch
+        run: git checkout -b "${{ env.GITHUB_NEW_BRANCH }}"
+
+      # Push new branch to remote
+      - name: Push branch
+        run: git push -u origin "${{ env.GITHUB_NEW_BRANCH }}"
 
       # Run update
       - name: Update modules

@@ -106,3 +106,24 @@
 [submodule ".config/vim/pack/colours/start/afterglow"]
 	path = .config/vim/pack/colours/start/afterglow
 	url  = https://github.com/danilo-augusto/vim-afterglow
+[submodule ".config/vim/pack/colours/start/kuroi"]
+	path = .config/vim/pack/colours/start/kuroi
+	url  = https://github.com/aonemd/kuroi.vim
+[submodule ".config/vim/pack/colours/start/gruvbox"]
+	path = .config/vim/pack/colours/start/gruvbox
+	url  = https://github.com/morhetz/gruvbox
+[submodule ".config/vim/pack/colours/start/edge"]
+	path = .config/vim/pack/colours/start/edge
+	url  = https://github.com/sainnhe/edge
+[submodule ".config/vim/pack/misc/start/sleuth"]
+	path = .config/vim/pack/misc/start/sleuth
+	url  = https://github.com/tpope/vim-sleuth
+[submodule ".config/vim/pack/colours/start/dracula"]
+	path = .config/vim/pack/colours/start/dracula
+	url  = https://github.com/dracula/vim.git
+[submodule ".config/vim/pack/colours/start/falcon"]
+	path = .config/vim/pack/colours/start/falcon
+	url  = https://github.com/fenetikm/falcon
+[submodule ".config/vim/pack/colours/start/tender"]
+	path = .config/vim/pack/colours/start/tender
+	url  = https://github.com/jacoborus/tender.vim
