@@ -115,3 +115,6 @@
 [submodule ".config/vim/pack/colours/start/edge"]
 	path = .config/vim/pack/colours/start/edge
 	url  = https://github.com/sainnhe/edge
+[submodule ".config/vim/pack/colours/start/falcon"]
+	path = .config/vim/pack/colours/start/falcon
+	url  = https://github.com/fenetikm/falcon
