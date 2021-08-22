@@ -118,3 +118,6 @@
 [submodule ".config/vim/pack/colours/start/falcon"]
 	path = .config/vim/pack/colours/start/falcon
 	url  = https://github.com/fenetikm/falcon
+[submodule ".config/vim/pack/colours/start/tender"]
+	path = .config/vim/pack/colours/start/tender
+	url  = https://github.com/jacoborus/tender.vim

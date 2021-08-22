@@ -20,5 +20,6 @@
 * rigel - Colorscheme based on the star Rigel
 * solarized - The famous solarized theme
 * spacegray - A colorscheme based on the Spacegray Xcode theme
+* tender - A 24bit colourscheme for vim, airline, and lightline.
 * toast - The Toast theme
 * typewriter - The TypeWriter theme
