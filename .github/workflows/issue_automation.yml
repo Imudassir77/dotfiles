@@ -49,6 +49,7 @@ jobs:
 
       # Create a new pull request from the new branch
       - name: Create pull request
+        id: create-pull-request
         uses: thomaseizinger/create-pull-request@1.1.0
         with:
           base: main
@@ -62,10 +63,9 @@ jobs:
         uses: KeisukeYamashita/create-comment@v1
         with:
           comment: |
+            [Checkout:](https://github.com/${{ github.repository }}/tree/${{ env.GITHUB_NEW_BRANCH }})
             ```sh
             git fetch && git checkout "${{ env.GITHUB_NEW_BRANCH }}"
             ```
 
-            Go to:
-            * ([branch](https://github.com/${{ github.repository }}/tree/${{ env.GITHUB_NEW_BRANCH }}))
-            * ([pull request](https://github.com/${{ github.repository }}/pull/${{ steps.create-pull-request.outputs.number }}))
+            ([Go to pull request](${{ steps.create-pull-request.outputs.html_url }}))

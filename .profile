@@ -89,7 +89,7 @@ export PF_SOURCE="${XDG_CONFIG_HOME}/pfetch/config"
 # Set Golang environment
 export GOROOT="/usr/local/go"
 export GOBIN="${XDG_BIN_HOME}/go/bin"
-export GOPATH="${XDG_BIN_HOME}/go:${HOME}/going-gophers:${HOME}/bfk"
+export GOPATH="${XDG_BIN_HOME}/go"
 
 # Set X11 init script
 export XINITRC="${XDG_CONFIG_HOME}/X11/xinitrc"
@@ -103,6 +103,10 @@ export LESSHISTFILE="${XDG_CACHE_HOME}/less.history"
 
 # Move wgetrc to XDG_CONFIG
 export WGETRC="$XDG_CONFIG_HOME/wget/config"
+
+# Set git(1) environment variables
+export GIT_EDITOR="${VISUAL:-$EDITOR}"
+export GIT_PAGER="$PAGER"
 
 # Export external variables }}}
 

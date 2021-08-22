@@ -117,4 +117,10 @@
 	url  = https://github.com/sainnhe/edge
 [submodule ".config/vim/pack/colours/start/dracula"]
 	path = .config/vim/pack/colours/start/dracula
-	url  = git@github.com:dracula/vim.git
+	url  = https://github.com/dracula/vim.git
+[submodule ".config/vim/pack/colours/start/falcon"]
+	path = .config/vim/pack/colours/start/falcon
+	url  = https://github.com/fenetikm/falcon
+[submodule ".config/vim/pack/colours/start/tender"]
+	path = .config/vim/pack/colours/start/tender
+	url  = https://github.com/jacoborus/tender.vim
