@@ -115,6 +115,9 @@
 [submodule ".config/vim/pack/colours/start/edge"]
 	path = .config/vim/pack/colours/start/edge
 	url  = https://github.com/sainnhe/edge
+[submodule ".config/vim/pack/misc/start/sleuth"]
+	path = .config/vim/pack/misc/start/sleuth
+	url  = https://github.com/tpope/vim-sleuth
 [submodule ".config/vim/pack/colours/start/dracula"]
 	path = .config/vim/pack/colours/start/dracula
 	url  = https://github.com/dracula/vim.git
