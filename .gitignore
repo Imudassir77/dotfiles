@@ -6,8 +6,8 @@
 !.*/**
 
 # ...that aren't one of these...
-**.cshrc
-**.cvsrc
-**.login
-**.mailrc
-**cache**
+.cshrc
+.cvsrc
+.login
+.mailrc
+.cache
