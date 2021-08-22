@@ -1,16 +1,35 @@
 ### Go ###
 # Binaries for programs and plugins
-*.exe
-*.exe~
-*.dll
-*.so
-*.dylib
+**.exe
+**.exe~
+**.dll
+**.so
+**.dylib
 
 # Test binary, built with `go test -c`
-*.test
+**.test
 
 # Output of the go coverage tool, specifically when used with LiteIDE
-*.out
+**.out
+
+### Vim ###
+# Swap
+**[._]*.s[a-v][a-z]
+**[._]*.sw[a-p]
+**[._]s[a-rt-v][a-z]
+**[._]ss[a-gi-z]
+**[._]sw[a-p]
+
+# Session
+**Session.vim
+**Sessionx.vim
+
+# Temporary
+**.netrwhist
+**~
+
+# Persistent undo
+**[._]*.un~
 
 ### Misc temp ###
 **.tmp
