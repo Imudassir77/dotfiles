@@ -55,7 +55,10 @@ jobs:
           base: main
           head: "${{ env.GITHUB_NEW_BRANCH }}"
           title: "${{ github.event.issue.title }}"
-          body: "Resolves #${{ github.event.issue.number }}"
+          body: |
+            # Resolves #${{ github.event.issue.number }}
+            [![GitHub pull request check state](https://img.shields.io/github/status/s/pulls/yuri-norwood/dotfiles/${{ github.event.issue.number }})](https://github.com/yuri-norwood/dotfiles/issues/ github.event.issue.number }})
+            [![GitHub issue/pull request detail](https://img.shields.io/github/issues/detail/state/yuri-norwood/dotfiles/${{ github.event.issue.number }})](https://github.com/yuri-norwood/dotfiles/issues/ github.event.issue.number }})
           GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
 
       # Add checkout comment to issue
