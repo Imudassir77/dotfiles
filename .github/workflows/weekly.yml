@@ -51,7 +51,7 @@ jobs:
       - name: Update modules
         run: |
           git submodule update --init --recursive
-          git submodule foreach --recursive git pull origin master
+          git submodule foreach --recursive "git pull origin master || git pull origin main"
 
       # Auto commit changes
       - name: Commit changes
@@ -69,5 +69,5 @@ jobs:
         with:
           base: main
           head: ${{ env.GITHUB_NEW_BRANCH }}
-          title: "[GIT-000]: Update Submodules"
+          title: "[GIT]: Update Submodules"
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
