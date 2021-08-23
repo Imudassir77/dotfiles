@@ -14,10 +14,10 @@
 * gotham - Code never sleeps in Gotham City
 * gruvbox - Retro groove colorscheme
 * iceberg - The IceBerg theme
-* juvenile - "I grew up and today I use monochromatic numerals"
 * kuroi - A very dark colorscheme
 * one - The One theme
 * paper - The PaperColor theme, inspired by Google's Material Design
+* reglettes - "I grew up and today I use monochromatic numerals"
 * rigel - Colorscheme based on the star Rigel
 * solarized - The famous solarized theme
 * spacegray - A colorscheme based on the Spacegray Xcode theme
