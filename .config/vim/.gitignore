@@ -16,3 +16,7 @@
 # Persistent undo
 **[._]*.un~
 
+# Spelling data
+spell/
+spell/**
+
