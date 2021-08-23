@@ -1,7 +1,9 @@
 ---
 
+# This file defines backmerge actions
 name: Backmerge
 
+# Automate on pull request close events
 on:
   pull_request:
     branches:
@@ -9,15 +11,18 @@ on:
     types:
       - closed
 
+# Define a job for each automatic task
 jobs:
 
+  # This job merges main into all feature branches
   main_onto_feature_branches:
 
+    # Only run this action if the PRwas closed by merging into main
     if: github.event.pull_request.merged == true
     timeout-minutes: 2
     runs-on: ubuntu-latest
-
     steps:
+
       # Create new branch and push to remote
       - uses: actions/checkout@v2
         with:
