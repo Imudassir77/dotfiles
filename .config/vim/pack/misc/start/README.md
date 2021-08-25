@@ -1,5 +1,5 @@
 # Vim Misc Plugins
 
-* manager - tpope's commentary plugin
+* commentary - Comment stuff out.
 * sleuth - Heuristically set buffer options
 * smoothie - Smooth scrolling for Vim done right
