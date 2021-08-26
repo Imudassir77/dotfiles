@@ -1,3 +1,3 @@
 # Vim HTML Plugins
 
-* syntax - syntax highlighting and advanced features for HTML5
+* syntax - HTML5 omnicomplete and syntax.

@@ -1,5 +1,6 @@
 # Vim Misc Plugins
 
-* manager - tpope's commentary plugin
-* sleuth - Heuristically set buffer options
-* smoothie - Smooth scrolling for Vim done right
+* commentary - Comment stuff out.
+* illuminate - Plugin for highlighting other uses of the word under the cursor.
+* sleuth - Heuristically set buffer options.
+* smoothie - Smooth scrolling for Vim done right.
