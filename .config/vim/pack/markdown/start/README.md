@@ -1,3 +1,3 @@
 # Vim Markdown Plugins
 
-* syntax - Extended syntax highlighting and rendering
+* syntax - Markdown Vim Mode.
