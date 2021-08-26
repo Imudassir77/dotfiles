@@ -1,3 +1,3 @@
 # Vim JavaScript Plugins
 
-* syntax - Extended syntax highlighting and folding
+* syntax - Vastly improved Javascript indentation and syntax support in Vim.

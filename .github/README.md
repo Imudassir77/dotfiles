@@ -103,7 +103,7 @@ update.
 
 ```sh
 cd "$HOME"
-git submodule foreach --recursive git pull origin master
+git submodule foreach --recursive "git pull origin master || git pull origin main"
 git commit -am "Updated submodules"
 ```
 

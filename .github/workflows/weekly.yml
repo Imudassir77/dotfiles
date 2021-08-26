@@ -29,14 +29,8 @@ jobs:
           git config --global user.email "Yuri Norwood"
           git config --global user.name "76186754+yuri-norwood@users.noreply.github.com"
 
-      # Run update
-      - name: Update modules
-        run: |
-          git submodule foreach --recursive git pull origin master
-          git commit -am "Updated submodules"
-
       # Authenticate token
-      - name: Push branch
+      - name: Authenticate token
         run: git push https://${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
 
       # Create new branch
