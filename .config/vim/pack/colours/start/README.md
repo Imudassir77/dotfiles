@@ -15,6 +15,7 @@
 * gruvbox - Retro groove colorscheme.
 * iceberg - Bluish color scheme for Vim.
 * kuroi - A very dark colorscheme.
+* material - A port of the material colourscheme for Vim/Neovim.
 * one - Adaptation of one-light and one-dark colourschemes for Vim.
 * paper - The PaperColor theme, inspired by Google's Material Design.
 * reglettes - "I grew up and today I use monochromatic numerals".

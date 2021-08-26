@@ -1,39 +1,36 @@
-! Tender color scheme, made by jacoborus
-! adapted by Jose Esparza
-
 ! special
-xterm*foreground:   #eeeeee
-xterm*background:   #282828
-xterm*cursorColor:  #eeeeee
+*.foreground:   #eeeeee
+*.background:   #282828
+*.cursorColor:  #eeeeee
 
 ! black
-xterm*color0:       #282828
-xterm*color8:       #4c4c4c
+*.color0:       #282828
+*.color8:       #4c4c4c
 
 ! red
-xterm*color1:       #f43753
-xterm*color9:       #f43753
+*.color1:       #f43753
+*.color9:       #f43753
 
 ! green
-xterm*color2:       #c9d05c
-xterm*color10:      #c9d05c
+*.color2:       #c9d05c
+*.color10:      #c9d05c
 
 ! yellow
-xterm*color3:       #ffc24b
-xterm*color11:      #ffc24b
+*.color3:       #ffc24b
+*.color11:      #ffc24b
 
 ! blue
-xterm*color4:       #b3deef
-xterm*color12:      #b3deef
+*.color4:       #b3deef
+*.color12:      #b3deef
 
 ! magenta
-xterm*color5:       #d3b987
-xterm*color13:      #d3b987
+*.color5:       #d3b987
+*.color13:      #d3b987
 
 ! cyan
-xterm*color6:       #73cef4
-xterm*color14:      #73cef4
+*.color6:       #73cef4
+*.color14:      #73cef4
 
 ! white
-xterm*color7:       #eeeeee
-xterm*color15:      #feffff
+*.color7:       #eeeeee
+*.color15:      #feffff
