@@ -19,9 +19,6 @@
 [submodule ".config/vim/pack/colours/start/github"]
 	path = .config/vim/pack/colours/start/github
 	url  = https://github.com/cormacrelf/vim-colors-github
-[submodule ".config/vim/pack/colours/start/juvenile"]
-	path = .config/vim/pack/colours/start/juvenile
-	url  = https://sanctum.geek.nz/code/vim-juvenile.git
 [submodule ".config/vim/pack/yaml/start/syntax"]
 	path = .config/vim/pack/yaml/start/syntax
 	url  = https://github.com/stephpy/vim-yaml
@@ -127,3 +124,6 @@
 [submodule ".config/vim/pack/colours/start/tender"]
 	path = .config/vim/pack/colours/start/tender
 	url  = https://github.com/jacoborus/tender.vim
+[submodule ".config/vim/pack/colours/start/reglettes"]
+	path = .config/vim/pack/colours/start/reglettes
+	url  = https://github.com/yuri-norwood/reglettes.vim

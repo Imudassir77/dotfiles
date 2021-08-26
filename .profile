@@ -52,6 +52,9 @@ export XDG_BIN_HOME="${HOME}/.local/bin"
 include "aliases/ls"
 include "aliases/mkdir"
 include "aliases/cd"
+include "aliases/ufetch"
+include "aliases/pfetch"
+include "aliases/neofetch"
 
 # Import external scripts }}}
 
