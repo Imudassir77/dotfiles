@@ -1,7 +1,7 @@
 ---
 
 # Protocol for git operations. Supported values: ssh, https
-git_protocol: https
+git_protocol: ssh
 
 # Editor to use. If blank, will refer to environment.
 editor:
