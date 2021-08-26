@@ -15,7 +15,7 @@ ALTUSERXSESSION="${XDG_CONFIG_HOME}/x11/Xsession"
 ERRFILE="${XDG_CONFIG_HOME}/x11/xsession-errors"
 
 # Integrate settings
-xrdb -merge "${XDG_CONFIG_HOME}/X11/Xresources"
+xrdb "-I${XDG_CONFIG_HOME}/x11" -merge "${XDG_CONFIG_HOME}/X11/Xresources"
 
 # Select Graphical Environment
 if [ ! -x "$(command -v dwm)" ] && [ "$(uname)" = "OpenBSD" ]

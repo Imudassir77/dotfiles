@@ -1,3 +1,3 @@
 # Vim Yaml Plugins
 
-* syntax - Adds highlighting for YAML files
+* syntax - Override vim syntax for yaml files.

@@ -1,3 +1,3 @@
 # Vim PGN Plugins
 
-* syntax - Adds syntax highlighting for Chess game files
+* syntax - Portable Game Notation (PGN) syntax highlighting support.
