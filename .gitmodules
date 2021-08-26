@@ -127,6 +127,9 @@
 [submodule ".config/vim/pack/colours/start/reglettes"]
 	path = .config/vim/pack/colours/start/reglettes
 	url  = https://github.com/yuri-norwood/reglettes.vim
+[submodule ".config/vim/pack/colours/start/sourcerer"]
+	path = .config/vim/pack/colours/start/sourcerer
+	url  = https://github.com/xero/sourcerer.vim
 [submodule ".config/vim/pack/colours/start/material"]
 	path = .config/vim/pack/colours/start/material
 	url  = https://github.com/kaicataldo/material.vim

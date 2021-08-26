@@ -21,7 +21,8 @@
 * reglettes - "I grew up and today I use monochromatic numerals".
 * rigel - Colorscheme based on the star Rigel.
 * solarized - Precision colorscheme for the vim text editor.
+* sourcerer - Read code like a wizard. A 16 bit colourscheme for hackers.
 * spacegray - A Vim colourscheme loosely based on the Spacegray Xcode theme.
 * tender - A 24bit colorscheme for Vim, Airline and Lightline.
-* toast - A colorful, medium-contrast colourscheme, without frying your retinae.
+* toast - A colorful, medium-contrast colourscheme, without frying your retinas.
 * typewriter - An iA Writer inspired color vim colorscheme.
