@@ -178,3 +178,7 @@
 	path   = .config/vim/pack/colours/start/material
 	url    = https://github.com/kaicataldo/material.vim
 	branch = main
+[submodule ".config/vim/pack/misc/start/devicons"]
+	path   = .config/vim/pack/misc/start/devicons
+	url    = https://github.com/ryanoasis/vim-devicons
+	branch = master
