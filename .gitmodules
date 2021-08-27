@@ -177,4 +177,4 @@
 [submodule ".config/vim/pack/colours/start/material"]
 	path   = .config/vim/pack/colours/start/material
 	url    = https://github.com/kaicataldo/material.vim
-	branch = master
+	branch = main
