@@ -141,4 +141,18 @@ then
 	eval "$(ssh-agent -s)" >/dev/null 2>&1
 fi
 
+# Make sure all XDG directories exist
+xdg --mkdir DESKTOP
+xdg --mkdir DOCUMENTS
+xdg --mkdir DOWNLOAD
+xdg --mkdir MUSIC
+xdg --mkdir PICTURES
+xdg --mkdir PUBLICSHARE
+xdg --mkdir TEMPLATES
+xdg --mkdir VIDEOS
+xdg --mkdir DATA
+xdg --mkdir CONFIG
+xdg --mkdir CACHE
+xdg --mkdir BIN
+
 # Run startup scripts }}}
