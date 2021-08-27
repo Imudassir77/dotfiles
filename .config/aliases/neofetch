@@ -1,0 +1,9 @@
+#!/bin/sh
+
+#
+# Alias definitions
+#
+
+# Simplify neofetch call
+alias nf="neofetch"
+
