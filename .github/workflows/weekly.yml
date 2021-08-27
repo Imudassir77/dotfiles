@@ -45,7 +45,7 @@ jobs:
       - name: Update modules
         run: |
           git submodule update --init --recursive
-          git submodule foreach --recursive "git pull origin master || git pull origin main"
+          git submodule foreach --recursive git pull
 
       # Auto commit changes
       - name: Commit changes
