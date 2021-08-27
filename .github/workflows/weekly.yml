@@ -29,14 +29,8 @@ jobs:
           git config --global user.email "Yuri Norwood"
           git config --global user.name "76186754+yuri-norwood@users.noreply.github.com"
 
-      # Run update
-      - name: Update modules
-        run: |
-          git submodule foreach --recursive git pull origin master
-          git commit -am "Updated submodules"
-
       # Authenticate token
-      - name: Push branch
+      - name: Authenticate token
         run: git push https://${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
 
       # Create new branch
@@ -51,17 +45,8 @@ jobs:
       - name: Update modules
         run: |
           git submodule update --init --recursive
-          git submodule foreach --recursive "git pull origin master || git pull origin main"
-
-      # Auto commit changes
-      - name: Commit changes
-        uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          commit_message: Updated submodules
-          commit_user_name: Yuri Norwood
-          commit_user_email: 76186754+yuri-norwood@users.noreply.github.com
-          commit_author: Yuri Norwood <76186754+yuri-norwood@users.noreply.github.com>
-          branch: ${{ env.GITHUB_NEW_BRANCH }}
+          git submodule update --recursive --remote
+          git commit -am "Updated submodules"
 
       # Create new pull request
       - name: Create Pull Request
