@@ -44,6 +44,16 @@ export XDG_CACHE_HOME="${HOME}/.cache"
 # Set nonstandard and pseudo XDG directories
 export XDG_BIN_HOME="${HOME}/.local/bin"
 
+# Set user-dirs XDG directories
+export XDG_DESKTOP_DIR="${HOME}"
+export XDG_DOCUMENTS_DIR="${XDG_DESKTOP_DIR}/documents"
+export XDG_DOWNLOAD_DIR="${XDG_DESKTOP_DIR}/downloads"
+export XDG_MUSIC_DIR="${HOME}/Music"
+export XDG_PICTURES_DIR="${HOME}/Pictures"
+export XDG_PUBLICSHARE_DIR="${HOME}/Public"
+export XDG_TEMPLATES_DIR="${XDG_CONFIG_HOME}/templates"
+export XDG_VIDEOS_DIR="${HOME}/Videos"
+
 # XDG Directories }}}
 
 # Import external scripts {{{
