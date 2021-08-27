@@ -5,7 +5,7 @@
 [submodule ".config/vim/pack/colours/start/paper"]
 	path   = .config/vim/pack/colours/start/paper
 	url    = https://github.com/NLKNguyen/papercolor-theme
-	branch = master	
+	branch = master
 [submodule ".config/vim/pack/git/start/gitignore"]
 	path   = .config/vim/pack/git/start/gitignore
 	url    = https://github.com/gisphm/vim-gitignore
