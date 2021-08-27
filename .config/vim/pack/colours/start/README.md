@@ -1,26 +1,28 @@
 # Vim Colorscheme Plugins
 
-* acme - ACME colours for vim
-* afterglow - Vim adaptation of the Afterglow colorscheme
-* amber - Retro CRT goodness
-* challenger - Challenger Deep theme
-* codedark - The default Visual Studio theme
+* acme - ACME colours for vim.
+* afterglow - Vim adaptation of the Afterglow colorscheme.
+* amber - A Vim colorscheme that won't burn out your retinas.
+* challenger - FlatColor vim colorscheme.
+* codedark - Dark colourscheme inspired by Visual Studio Code.
 * dracula - draculatheme.com/vim
-* edge - Clean & Elegant colorscheme
-* falcon - A colourscheme for terminals, vim, and friends
-* firewatch - Two tone simple theme
-* flattened - Solarized, without the bullshit
-* github - The GitHub code editor theme
-* gotham - Code never sleeps in Gotham City
-* gruvbox - Retro groove colorscheme
-* iceberg - The IceBerg theme
-* kuroi - A very dark colorscheme
-* one - The One theme
-* paper - The PaperColor theme, inspired by Google's Material Design
-* reglettes - "I grew up and today I use monochromatic numerals"
-* rigel - Colorscheme based on the star Rigel
-* solarized - The famous solarized theme
-* spacegray - A colorscheme based on the Spacegray Xcode theme
-* tender - A 24bit colourscheme for vim, airline, and lightline.
-* toast - The Toast theme
-* typewriter - The TypeWriter theme
+* edge - Clean & Elegant Color Scheme.
+* falcon - A colourscheme for terminals, vim, and friends.
+* firewatch - A blend between duotone light and firewatch for atom.
+* flattened - Solarized, without the bullshit.
+* github - The GitHub code editor theme.
+* gotham - Code never sleeps in Gotham City.
+* gruvbox - Retro groove colorscheme.
+* iceberg - Bluish color scheme for Vim.
+* kuroi - A very dark colorscheme.
+* material - A port of the material colourscheme for Vim/Neovim.
+* one - Adaptation of one-light and one-dark colourschemes for Vim.
+* paper - The PaperColor theme, inspired by Google's Material Design.
+* reglettes - "I grew up and today I use monochromatic numerals".
+* rigel - Colorscheme based on the star Rigel.
+* solarized - Precision colorscheme for the vim text editor.
+* sourcerer - Read code like a wizard. A 16 bit colourscheme for hackers.
+* spacegray - A Vim colourscheme loosely based on the Spacegray Xcode theme.
+* tender - A 24bit colorscheme for Vim, Airline and Lightline.
+* toast - A colorful, medium-contrast colourscheme, without frying your retinas.
+* typewriter - An iA Writer inspired color vim colorscheme.
