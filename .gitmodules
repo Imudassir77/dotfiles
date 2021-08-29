@@ -142,10 +142,6 @@
 	path   = .config/vim/pack/colours/start/kuroi
 	url    = https://github.com/aonemd/kuroi.vim
 	branch = master
-[submodule ".config/vim/pack/colours/start/gruvbox"]
-	path   = .config/vim/pack/colours/start/gruvbox
-	url    = https://github.com/sainnhe/gruvbox-material
-	branch = master
 [submodule ".config/vim/pack/colours/start/edge"]
 	path   = .config/vim/pack/colours/start/edge
 	url    = https://github.com/sainnhe/edge
