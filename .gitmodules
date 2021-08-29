@@ -144,7 +144,7 @@
 	branch = master
 [submodule ".config/vim/pack/colours/start/gruvbox"]
 	path   = .config/vim/pack/colours/start/gruvbox
-	url    = https://github.com/morhetz/gruvbox
+	url    = https://github.com/sainnhe/gruvbox-material
 	branch = master
 [submodule ".config/vim/pack/colours/start/edge"]
 	path   = .config/vim/pack/colours/start/edge
