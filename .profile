@@ -44,6 +44,16 @@ export XDG_CACHE_HOME="${HOME}/.cache"
 # Set nonstandard and pseudo XDG directories
 export XDG_BIN_HOME="${HOME}/.local/bin"
 
+# Set user-dirs XDG directories
+export XDG_DESKTOP_DIR="${HOME}"
+export XDG_DOCUMENTS_DIR="${XDG_DESKTOP_DIR}/documents"
+export XDG_DOWNLOAD_DIR="${XDG_DESKTOP_DIR}/downloads"
+export XDG_MUSIC_DIR="${XDG_DESKTOP_DIR}/media"
+export XDG_PICTURES_DIR="${XDG_DESKTOP_DIR}/media"
+export XDG_PUBLICSHARE_DIR="${HOME}/public"
+export XDG_TEMPLATES_DIR="${XDG_CONFIG_HOME}/templates"
+export XDG_VIDEOS_DIR="${XDG_DESKTOP_DIR}/media"
+
 # XDG Directories }}}
 
 # Import external scripts {{{
@@ -140,5 +150,19 @@ if [ -z "$SSH_AUTH_SOCK" ]
 then
 	eval "$(ssh-agent -s)" >/dev/null 2>&1
 fi
+
+# Make sure all XDG directories exist
+xdg --mkdir DESKTOP
+xdg --mkdir DOCUMENTS
+xdg --mkdir DOWNLOAD
+xdg --mkdir MUSIC
+xdg --mkdir PICTURES
+xdg --mkdir PUBLICSHARE
+xdg --mkdir TEMPLATES
+xdg --mkdir VIDEOS
+xdg --mkdir DATA
+xdg --mkdir CONFIG
+xdg --mkdir CACHE
+xdg --mkdir BIN
 
 # Run startup scripts }}}
