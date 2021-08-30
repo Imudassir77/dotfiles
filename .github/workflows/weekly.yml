@@ -46,7 +46,7 @@ jobs:
         run: |
           git submodule update --init --recursive
           git submodule update --recursive --remote
-          git commit -am "Updated submodules"
+          git commit -am "Updated submodules" || git commit -m "Submodules up-to-date" --allow-empty
 
       # Create new pull request
       - name: Create Pull Request
