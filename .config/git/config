@@ -19,18 +19,18 @@
 	prune = true
 
 [color]
-	advice      = true
-	branch      = true
-	decorate    = true
-	diff        = true
-	grep        = true
-	interactive = true
-	pager       = true
-	push        = true
-	remote      = true
-	showBranch  = true
-	status      = true
-	transport   = true
+	advice      = always
+	branch      = always
+	decorate    = always
+	diff        = always
+	grep        = always
+	interactive = always
+	pager       = always
+	push        = always
+	remote      = always
+	showBranch  = always
+	status      = always
+	transport   = always
 	ui          = always
 
 [column]
