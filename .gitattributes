@@ -30,6 +30,6 @@
 .config/git/config linguist-language=Git-Config
 
 # Report template directory as vendored code
-.config/template/** linguist-vendored
+.config/templates/** linguist-vendored
 
 # GitHub linguist setting }}}
