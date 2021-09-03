@@ -25,7 +25,7 @@
 	diff        = always
 	grep        = always
 	interactive = always
-	pager       = always
+	pager       = true
 	push        = always
 	remote      = always
 	showBranch  = always
