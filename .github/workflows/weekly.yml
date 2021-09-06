@@ -37,16 +37,16 @@ jobs:
       - name: Create branch
         run: git checkout -b "${{ env.GITHUB_NEW_BRANCH }}"
 
-      # Push new branch to remote
-      - name: Push branch
-        run: git push -u origin "${{ env.GITHUB_NEW_BRANCH }}"
-
       # Run update
       - name: Update modules
         run: |
           git submodule update --init --recursive
           git submodule update --recursive --remote
           git commit -am "Updated submodules" || git commit -m "Submodules up-to-date" --allow-empty
+
+      # Push new branch to remote
+      - name: Push branch
+        run: git push -u origin "${{ env.GITHUB_NEW_BRANCH }}"
 
       # Create new pull request
       - name: Create Pull Request
