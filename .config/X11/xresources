@@ -1,6 +1,13 @@
 #include "colours/dos.xresources"
 
-xterm*loginShell     : true
+! Set xterm geometry
 xterm*vt100*geometry : 80x25
 xterm*saveLines      : 2000
+
+! Set session environment
+xterm*loginShell     : true
 xterm*termName       : xterm-color
+
+! Use bright color rather than bold font, better for raster fonts
+xterm*boldMode:    false
+xterm*colorBDMode: true
