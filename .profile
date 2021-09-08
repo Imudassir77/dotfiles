@@ -43,6 +43,7 @@ export XDG_CACHE_HOME="${HOME}/.cache"
 
 # Set nonstandard and pseudo XDG directories
 export XDG_BIN_HOME="${HOME}/.local/bin"
+export XDG_LIB_HOME="${HOME}/.local/lib"
 
 # Set user-dirs XDG directories
 export XDG_DESKTOP_DIR="${HOME}"
