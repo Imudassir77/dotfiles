@@ -1,0 +1,38 @@
+#!/bin/sh
+
+#
+# "sh/common" - common shell functions
+#
+
+err() {
+	echo "ERROR: $*" 1>&2
+}
+
+die() {
+	err "$*"
+	exit 1
+}
+
+import() {
+	if [ -f "$1" ]
+	then
+		. "$1"
+	elif [ -d "${XDG_CONFIG_HOME}" ] && [ -f "${XDG_CONFIG_HOME}/$1" ]
+	then
+		. "${XDG_CONFIG_HOME}/$1"
+	elif [ -d "${XDG_LIB_HOME}" ] && [ -f "${XDG_LIB_HOME}/$1" ]
+	then
+		. "${XDG_LIB_HOME}/$1"
+	fi
+}
+
+using() {
+	if [ -d "$1" ]
+	then
+		export PATH="$1:${PATH}"
+	elif [ -d "${XDG_BIN_HOME}" ] && [ -d "${XDG_BIN_HOME}/$1" ]
+	then
+		export PATH="${XDG_BIN_HOME}/$1:${PATH}"
+	fi
+}
+
