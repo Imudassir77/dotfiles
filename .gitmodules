@@ -182,3 +182,7 @@
 	path   = .config/vim/pack/misc/start/devicons
 	url    = https://github.com/ryanoasis/vim-devicons
 	branch = master
+[submodule ".config/vim/pack/colours/start/spaceduck"]
+	path   = .config/vim/pack/colours/start/spaceduck
+	url    = https://github.com/pineapplegiant/spaceduck
+	branch = main
