@@ -22,6 +22,7 @@
 * rigel - Colorscheme based on the star Rigel.
 * solarized - Precision colorscheme for the vim text editor.
 * sourcerer - Read code like a wizard. A 16 bit colourscheme for hackers.
+* spaceduck - An intergalactic space theme.
 * spacegray - A Vim colourscheme loosely based on the Spacegray Xcode theme.
 * tender - A 24bit colorscheme for Vim, Airline and Lightline.
 * toast - A colorful, medium-contrast colourscheme, without frying your retinas.
