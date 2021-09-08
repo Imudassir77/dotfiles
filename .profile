@@ -7,30 +7,8 @@
 
 # Helper functions {{{
 
-# Helper to safely include external scripts
-include() {
-	if [ -f "$1" ]
-	then
-		. "$1"
-	elif [ -f "${XDG_CONFIG_HOME}/$1" ]
-	then
-		. "${XDG_CONFIG_HOME}/$1"
-	fi
-}
-
-# Helper to add executables to $PATH
-path_add() {
-	# If the directory exists, add it to PATH
-	if [ -d "$1" ]
-	then
-		export PATH="$1:${PATH}"
-
-	# Otherwise try as a subdir of XDG_BIN_HOME
-	elif [ -d "${XDG_BIN_HOME}" ] && [ -d "${XDG_BIN_HOME}/$1" ]
-	then
-		export PATH="${XDG_BIN_HOME}/$1:${PATH}"
-	fi
-}
+# Import common functions
+. ~/.local/lib/sh/common
 
 # Helper functions }}}
 
@@ -60,12 +38,12 @@ export XDG_VIDEOS_DIR="${XDG_DESKTOP_DIR}/media"
 # Import external scripts {{{
 
 # Include alias definitions
-include "aliases/ls"
-include "aliases/mkdir"
-include "aliases/cd"
-include "aliases/ufetch"
-include "aliases/pfetch"
-include "aliases/neofetch"
+import "aliases/ls"
+import "aliases/mkdir"
+import "aliases/cd"
+import "aliases/ufetch"
+import "aliases/pfetch"
+import "aliases/neofetch"
 
 # Import external scripts }}}
 
@@ -127,20 +105,20 @@ export GIT_PAGER="$PAGER"
 # Update PATH {{{
 
 # Add scripts to PATH, its tools may be accessed after this
-path_add "scripts"
+using "scripts"
 
 # Add pfetch to PATH
-path_add "pfetch"
+using "pfetch"
 
 # Add dotnet tools to PATH
-path_add "${DOTNET_TOOLS}"
+using "${DOTNET_TOOLS}"
 
 # Add go lang tools to PATH
-path_add "${GOROOT}/bin"
-path_add "${GOBIN}"
+using "${GOROOT}/bin"
+using "${GOBIN}"
 
 # Add OS specific scripts to PATH
-path_add "$(uname | tr '[:upper:]' '[:lower:]')"
+using "$(uname | tr '[:upper:]' '[:lower:]')"
 
 # Update PATH }}}
 
@@ -168,3 +146,4 @@ xdg --mkdir BIN
 xdg --mkdir LIB
 
 # Run startup scripts }}}
+
