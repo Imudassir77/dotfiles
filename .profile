@@ -165,5 +165,6 @@ xdg --mkdir DATA
 xdg --mkdir CONFIG
 xdg --mkdir CACHE
 xdg --mkdir BIN
+xdg --mkdir LIB
 
 # Run startup scripts }}}
