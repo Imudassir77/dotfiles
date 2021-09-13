@@ -9,5 +9,5 @@ xterm*loginShell     : true
 xterm*termName       : xterm-color
 
 ! Use bright color rather than bold font, better for raster fonts
-xterm*boldMode:    false
-xterm*colorBDMode: true
+xterm*boldMode    : false
+xterm*colorBDMode : true
