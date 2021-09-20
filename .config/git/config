@@ -54,3 +54,5 @@
 	recurse   = true
 	fetchJobs = 8
 
+[init]
+	defaultBranch = main
